@@ -51,13 +51,32 @@ DEFAULT_VPNGATE_API = "http://www.vpngate.net/api/iphone/"
 DEFAULT_VPNGATE_MIRROR = (
     "https://raw.githubusercontent.com/fdciabdul/Vpngate-Scraper-API/main/json/data.json"
 )
-DEFAULT_OPTIMAL_API = "https://bestcf.pages.dev/tiancheng/all.txt,https://bestcf.pages.dev/tiancheng2/all.txt,https://bestcf.pages.dev/xinyitang3/ipv4.txt,https://raw.githubusercontent.com/svip-s/cloudflare_ip/refs/heads/main/best_ips.txt,https://api.soso.sryze.cc/AutoSubFBot.txt"
+DEFAULT_OPTIMAL_API = ""
 
 # 占位符检测：命中任意一个就认为用户还没配置
 PLACEHOLDER_MARKERS = ("你的", "YOUR_", "YOUR-", "example.com", "yourdomain")
 
 # 静态优选域名池（可用 EDGE_HOSTS 整体覆盖）
 DEFAULT_EDGE_HOSTS = [
+    "152.175.38.157:8443",
+    "216.236.59.168:1891",
+    "133.117.72.192:443",
+    "154.19.187.189:443",
+    "221.157.139.47:12218",
+    "121.131.248.215:12268",
+    "120.240.179.158:10001",
+    "61.84.41.13:20880",
+    "43.130.248.164:8443",
+    "202.144.195.77:8443",
+    "45.142.127.233:443",
+    "207.57.123.190:443",
+    "152.175.7.63:8443",
+    "47.130.35.116:8888",
+    "216.236.51.155:1891",
+    "13.196.179.169:443",
+    "13.230.247.88:443",
+    "13.114.101.22:443",
+    "195.172.138.212:8443",
     "cdn.aneko.ink:443",
     "visa.com:443",
     "cf.877771.xyz:443",
