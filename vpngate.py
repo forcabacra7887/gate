@@ -51,27 +51,25 @@ DEFAULT_VPNGATE_API = "http://www.vpngate.net/api/iphone/"
 DEFAULT_VPNGATE_MIRROR = (
     "https://raw.githubusercontent.com/fdciabdul/Vpngate-Scraper-API/main/json/data.json"
 )
-DEFAULT_OPTIMAL_API = ""
+DEFAULT_OPTIMAL_API = "https://bestcf.pages.dev/tiancheng/all.txt,https://bestcf.pages.dev/tiancheng2/all.txt,https://bestcf.pages.dev/xinyitang3/ipv4.txt,https://raw.githubusercontent.com/svip-s/cloudflare_ip/refs/heads/main/best_ips.txt,https://api.soso.sryze.cc/AutoSubFBot.txt"
 
 # 占位符检测：命中任意一个就认为用户还没配置
 PLACEHOLDER_MARKERS = ("你的", "YOUR_", "YOUR-", "example.com", "yourdomain")
 
 # 静态优选域名池（可用 EDGE_HOSTS 整体覆盖）
 DEFAULT_EDGE_HOSTS = [
-    "saas.sin.fan:443",
-    "www.mfyx.cn:443",
-    "cf.nyanya.moe:443",
-    "cf.877774.xyz:443",
-    "cdn.204910.best:443",
-    "cdn.ctn32.us.kg:443",
-    "p.etime.vip:443",
-    "cmcc.vvvv.ee:443",
-    "cfsaas.080112.xyz:443",
     "cdn.aneko.ink:443",
-    "hk.cf.3666888.xyz:443",
-    "best.hzample.kdns.fr:443",
-    "ctsg.cfyx.aliyun.20237737.xyz:443",
-    "china-unicom.cname.cloudflare.468123.xyz:443",
+    "visa.com:443",
+    "cf.877771.xyz:443",
+    "ln.edu.hk:443",
+    "yg1.ygkkk.dpdns.org:443",
+    "yg5.ygkkk.dpdns.org:443",
+    "columbia.edu:443",
+    "yg3.ygkkk.dpdns.org:443",
+    "ip.skk.moe:443",
+    "for.edu.sg:443",
+    "www.speedtest.net:443",
+    "investor.apple.com:443",
 ]
 
 DATA_CENTER_ORG_KEYWORDS = [
